@@ -10,11 +10,15 @@ function multiplicar(a, b){
 
 //funcion asincrónica. Para cambiar una función sincrónica a asyn es poner async
 function dividir (a, b){
-    if (b ===0) return Error('No se puede divividir por cero')
-        else return a/b
+    if (b ===0) {
+        console.log("Error: No se puede dividir por cero")
+        return null
+    }    else {
+        return a / b
+}
 }
 
-let resultadoSuma = dividir (5, 0);
+let resultadoSuma = dividir (5, 0)
 
 console.log('El resultado de la suma es:', resultadoSuma)
 

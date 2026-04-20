@@ -8,3 +8,4 @@ let producto = {
 
 console.log(arrayComidasFavoritas[0]);
 console.log(typeof(arrayComidasFavoritas));
+console.log(producto)
